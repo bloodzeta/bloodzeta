@@ -3,48 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Servidor Minecraft - Tienda Oficial</title>
+  <title>Tienda Oficial - Servidor Minecraft</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: url('https://i.imgur.com/4ZQZ4fE.png') no-repeat center center fixed;
+      font-family: 'Arial', sans-serif;
+      background: url('https://i.imgur.com/J2s1o9f.png') no-repeat center center fixed;
       background-size: cover;
-      color: white;
+      color: #fff;
     }
     header {
-      background: rgba(0,0,0,0.8);
+      background: rgba(20, 0, 0, 0.9);
       text-align: center;
       padding: 20px;
+      border-bottom: 3px solid #b30000;
     }
     header h1 {
       margin: 0;
-      color: #00ff88;
+      color: #ff1a1a;
       font-size: 2.5em;
+      text-shadow: 2px 2px 5px black;
     }
     nav {
       margin-top: 10px;
     }
     nav a {
-      color: white;
+      color: #fff;
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 5px;
+      transition: 0.3s;
     }
     nav a:hover {
-      color: #00ff88;
+      background: #b30000;
+      color: #fff;
     }
     .hero {
       text-align: center;
       padding: 80px 20px;
-      background: rgba(0,0,0,0.6);
+      background: rgba(20,0,0,0.8);
     }
     .hero h2 {
       font-size: 2.5em;
       margin-bottom: 20px;
+      color: #ff3333;
+      text-shadow: 2px 2px 10px black;
     }
     .btn {
-      background: #5865F2;
+      background: #b30000;
       padding: 15px 30px;
       border: none;
       border-radius: 8px;
@@ -54,9 +62,10 @@
       color: white;
       text-decoration: none;
       display: inline-block;
+      transition: 0.3s;
     }
     .btn:hover {
-      background: #4752C4;
+      background: #800000;
     }
     .features {
       display: flex;
@@ -67,21 +76,27 @@
       flex-wrap: wrap;
     }
     .card {
-      background: rgba(0,0,0,0.7);
+      background: rgba(30, 0, 0, 0.8);
       padding: 30px;
       border-radius: 12px;
       text-align: center;
       width: 280px;
+      border: 2px solid #b30000;
+      box-shadow: 0px 0px 15px #660000;
     }
     .card h3 {
-      color: #00ff88;
+      color: #ff1a1a;
       margin-bottom: 10px;
     }
+    .card p strong {
+      color: #ff6666;
+    }
     footer {
-      background: rgba(0,0,0,0.8);
+      background: rgba(20, 0, 0, 0.9);
       text-align: center;
       padding: 20px;
       margin-top: 40px;
+      border-top: 3px solid #b30000;
     }
   </style>
 </head>
@@ -97,25 +112,25 @@
   </header>
 
   <section class="hero" id="inicio">
-    <h2>Bienvenido a la tienda oficial</h2>
-    <p>Compra rangos, kits y objetos especiales para mejorar tu experiencia.</p>
-    <!-- 🔹 Reemplaza el enlace por tu invitación de Discord -->
+    <h2>Bienvenido a la Tienda Oficial</h2>
+    <p>Compra rangos, kits y objetos especiales para mejorar tu experiencia en el servidor.</p>
+    <!-- 🔹 Reemplaza el enlace por tu invitación real de Discord -->
     <a href="https://discord.gg/TU-INVITACION" class="btn" target="_blank">Entrar a Discord</a>
   </section>
 
   <section class="features" id="kits">
     <div class="card">
-      <h3>⚔️ Kit Guerrero</h3>
+      <h3>⚔️ Kit Zeta</h3>
       <p>Espada de diamante, armadura de hierro, pociones.</p>
       <p><strong>$5.00</strong></p>
     </div>
     <div class="card">
-      <h3>🧙 Kit Mago</h3>
+      <h3>🧙 Kit ELITE Z</h3>
       <p>Báculo mágico, libros encantados, pociones raras.</p>
       <p><strong>$7.00</strong></p>
     </div>
     <div class="card">
-      <h3>🌍 Kit Superviviente</h3>
+      <h3>🌍 Kit SANGRE REAL</h3>
       <p>Comida, herramientas, armadura básica.</p>
       <p><strong>$3.00</strong></p>
     </div>
@@ -123,12 +138,12 @@
 
   <section class="features" id="rangos">
     <div class="card">
-      <h3>⭐ VIP</h3>
+      <h3>⭐ Kit DEMONIO Z</h3>
       <p>Acceso a /fly, kits diarios y más ventajas.</p>
       <p><strong>$10.00</strong></p>
     </div>
     <div class="card">
-      <h3>👑 VIP+</h3>
+      <h3>👑 Kit TITAN DE SANGRE</h3>
       <p>Más beneficios y acceso a áreas exclusivas.</p>
       <p><strong>$15.00</strong></p>
     </div>
